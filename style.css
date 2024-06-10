@@ -1,0 +1,56 @@
+/* the body code establishes the 'body' of the page. so the background is a gradient between white and purple  */
+body{
+	background: -webkit-linear-gradient(right, #bc8dde, #ffffff,#bc8dde);
+	background: -moz-linear-gradient(right, #bc8dde, #ffffff,#bc8dde);
+	background: -o-linear-gradient(right, #bc8dde, #ffffff, #bc8dde);
+	background: linear-gradient(to right, #bc8dde, #ffffff, #bc8dde);
+	color: #00FF00;
+}
+/* the following headers are changed to different colors, fonts, and sizes based on the text in the html file  */
+h1{
+	color: #ff0000;
+	text-shadow:0 0 2px rgb(120, 42, 16);
+	font-family: times new roman, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h2{
+	color: #000000;
+	text-shadow:0 0 2px rgb(0, 0, 0);
+	font-family: times new roman, arial;
+}
+
+h3{
+	color: #ff0000;
+	text-shadow:0 0 2px rgb(255, 145, 0); 
+	font-family: times new roman, arial;
+}
+
+h4{
+	color: #000000;
+	text-shadow:0 0 2px rgb(0, 0, 0);
+	font-family: times new roman, arial;
+}
+
+
+h5{
+	color: #000000;
+	text-shadow:0 0 2px rgb(0, 0, 0);
+	font-family: times new roman, arial;
+}
+
+
+h6{
+	color: #000000;
+	text-shadow:0 0 2px rgb(0, 0, 0);
+	font-family: times new roman, arial;
+}
+
+
+/* the p is the paragraph, and the main content in the html file. its color and font is established here  */
+
+p{
+	color: #000707;
+	/*text-shadow:0 0 2px rgb(4, 0, 4);*/
+	font-family: times new roman, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
